@@ -1,0 +1,20 @@
+footer {
+  height: 6.25rem;
+  color: #6C757D;
+  padding-top: 6.25rem;
+}
+
+footer a {
+  color: #6C757D;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #6C757D;
+}
+
+footer .col-menu {
+  text-align: right;
+}
+
+/*# sourceMappingURL=_footer.css.map */

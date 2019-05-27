@@ -1,0 +1,42 @@
+.sidebar
+    width: 100vw
+    height: 100vh
+    position: fixed
+    z-index: 99
+    .container-fluid
+        height: inherit
+        .sidebar-content
+            height: inherit
+            .sidebar-menu
+                height: inherit
+                width: 16rem
+                display: flex
+                flex-flow: column wrap
+                justify-content: start
+                padding: 0
+                background: #F8F9FA
+                position: absolute
+                left: -16rem
+                z-index: 99
+                a
+                    display: block
+                    width: 100%
+                    padding: 0.625rem 1.25rem
+                    color: #353535
+                    &:hover
+                        text-decoration: none
+                .sidebar-item
+                    &:hover
+                        background: rgba(0,0,0,0.1)
+                .btn-close
+                    width: 20%
+                    margin-bottom: 3.125rem
+                    margin-left: 80%
+                    text-align: center
+                    color: rgba(#353535, 0.5)
+                    &:hover
+                        color: rgba(#353535, 1)
+                        background: rgba(0,0,0,0.1)
+            .sidebar-close
+                background: rgba(0,0,0,0.5)
+                z-index: 98
